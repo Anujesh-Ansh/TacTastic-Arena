@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:columnCount="3"
+        android:rowCount="3" >
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="95dp"
+            android:layout_height="95dp"
+            android:layout_margin="5dp"
+            android:id="@+id/btn1"
+            android:onClick="Check"
+            android:textSize="45sp"
+            
+            />
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="95dp"
+            android:layout_height="95dp"
+            android:layout_margin="5dp"
+            android:id="@+id/btn2"
+            android:onClick="Check"
+            android:textSize="45sp"
+            />
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="95dp"
+            android:layout_height="95dp"
+            android:layout_margin="5dp"
+            android:id="@+id/btn3"
+            android:onClick="Check"
+            android:textSize="45sp"
+            />
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="95dp"
+            android:layout_height="95dp"
+            android:layout_margin="5dp"
+            android:id="@+id/btn4"
+            android:onClick="Check"
+            android:textSize="45sp"
+            />
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="95dp"
+            android:layout_height="95dp"
+            android:layout_margin="5dp"
+            android:id="@+id/btn5"
+            android:onClick="Check"
+            android:textSize="45sp"
+            />
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="95dp"
+            android:layout_height="95dp"
+            android:layout_margin="5dp"
+            android:id="@+id/btn6"
+            android:onClick="Check"
+            android:textSize="45sp"
+            />
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="95dp"
+            android:layout_height="95dp"
+            android:layout_margin="5dp"
+            android:id="@+id/btn7"
+            android:onClick="Check"
+            android:textSize="45sp"
+            />
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="95dp"
+            android:layout_height="95dp"
+            android:layout_margin="5dp"
+            android:id="@+id/btn8"
+            android:onClick="Check"
+            android:textSize="45sp"
+
+            
+            />
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="95dp"
+            android:layout_height="95dp"
+            android:layout_margin="5dp"
+            android:id="@+id/btn9"
+            android:onClick="Check"
+            android:textSize="45sp"
+            />
+
+
+    </GridLayout>
+
+
+
+</LinearLayout>
